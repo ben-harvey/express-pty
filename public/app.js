@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     request.addEventListener("load", () => {
       const result = request.response.result;
-      console.log(result);
+      // console.log(result);
 
       output.textContent = result;
     });
