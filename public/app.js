@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   submitButton.addEventListener("click", () => {
     const codeContent = textArea.innerHTML.replace(/ +?/g, "");
-    const data = { code: codeContent };
+    console.log(codeContent);
+    const data = { codeContent };
     const json = JSON.stringify(data);
 
     var request = new XMLHttpRequest();
