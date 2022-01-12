@@ -11,7 +11,7 @@
     "codemirror": "^5.49.2",
     "debug": "^4.1.1",
     "express": "^4.17.1",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "morgan": "^1.9.1",
     "node-pty": "^0.9.0",
     "nodemon": "^1.19.4"
